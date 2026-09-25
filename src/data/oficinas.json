@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ofi-dorada-central",
+    "nombre": "Sucursal Principal La Dorada",
+    "tipo": "Sucursal",
+    "ciudad": "La Dorada",
+    "departamento": "Caldas",
+    "direccion": "Calle 14 # 3-45, Centro",
+    "telefono": "(+57) 606 857 2300",
+    "horario": "Lunes a Viernes: 8:00 a.m. - 11:30 a.m. y 2:00 p.m. - 4:30 p.m. / Sábados: 9:00 a.m. - 12:00 m.",
+    "servicios": ["Asesoría comercial", "Cajas y pagos", "Apertura de CDT", "Solicitud de créditos", "Cajero multifuncional"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 5.4542, "lng": -74.6644 }
+  },
+  {
+    "id": "ofi-manizales-cable",
+    "nombre": "Sucursal Manizales El Cable",
+    "tipo": "Sucursal",
+    "ciudad": "Manizales",
+    "departamento": "Caldas",
+    "direccion": "Carrera 23 # 65-12, Sector El Cable",
+    "telefono": "(+57) 606 886 4500",
+    "horario": "Lunes a Viernes: 8:30 a.m. - 4:00 p.m. Jornada continua / Sábados: 9:00 a.m. - 1:00 p.m.",
+    "servicios": ["Asesoría de créditos", "Inversiones CDT", "Caja empresarial", "Atención prioritaria", "Zona digital"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 5.0569, "lng": -75.4913 }
+  },
+  {
+    "id": "caj-dorada-comercio",
+    "nombre": "Cajero Automático Plaza de Mercado La Dorada",
+    "tipo": "Cajero automático",
+    "ciudad": "La Dorada",
+    "departamento": "Caldas",
+    "direccion": "Carrera 6 # 15-20, Zona Comercial",
+    "telefono": "Línea 018000 912345",
+    "horario": "Atención 24 horas los 7 días de la semana",
+    "servicios": ["Retiros en efectivo", "Consultas de saldo", "Cambio de clave", "Avances"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 5.4518, "lng": -74.6611 }
+  },
+  {
+    "id": "ofi-bogota-centro",
+    "nombre": "Sede Corporativa Bogotá Centro Internacional",
+    "tipo": "Sucursal",
+    "ciudad": "Bogotá",
+    "departamento": "Cundinamarca",
+    "direccion": "Carrera 7 # 32-16, Torre Financiera",
+    "telefono": "(+57) 601 744 8000",
+    "horario": "Lunes a Viernes: 8:00 a.m. - 4:30 p.m. Jornada continua",
+    "servicios": ["Banca corporativa", "Banca personas", "Mesa de dinero / CDT", "Crédito hipotecario y comercial", "Cajeros automáticos"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 4.6192, "lng": -74.0697 }
+  },
+  {
+    "id": "ofi-medellin-poblado",
+    "nombre": "Sucursal Medellín El Poblado",
+    "tipo": "Sucursal",
+    "ciudad": "Medellín",
+    "departamento": "Antioquia",
+    "direccion": "Calle 10 # 43D-24, El Poblado",
+    "telefono": "(+57) 604 444 3200",
+    "horario": "Lunes a Viernes: 8:30 a.m. - 4:00 p.m. / Sábados: 9:00 a.m. - 1:00 p.m.",
+    "servicios": ["Asesoría financiera integral", "Créditos y libranzas", "CDT e inversiones", "Cajas y recaudos", "Cajero multifuncional"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 6.2089, "lng": -75.5684 }
+  },
+  {
+    "id": "caj-bogota-salitre",
+    "nombre": "Cajero Automático Terminal Salitre",
+    "tipo": "Cajero automático",
+    "ciudad": "Bogotá",
+    "departamento": "Cundinamarca",
+    "direccion": "Diagonal 23 # 69-60, Módulo 2",
+    "telefono": "Línea 018000 912345",
+    "horario": "24 Horas",
+    "servicios": ["Retiros", "Pagos de servicios", "Transferencias entre cuentas"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 4.6534, "lng": -74.1162 }
+  },
+  {
+    "id": "ofi-cali-granada",
+    "nombre": "Sucursal Cali Granada",
+    "tipo": "Sucursal",
+    "ciudad": "Cali",
+    "departamento": "Valle del Cauca",
+    "direccion": "Avenida 9 Norte # 12N-30, Barrio Granada",
+    "telefono": "(+57) 602 388 9000",
+    "horario": "Lunes a Viernes: 8:00 a.m. - 11:30 a.m. y 2:00 p.m. - 4:30 p.m.",
+    "servicios": ["Asesoría de crédito", "CDTs", "Cuentas de ahorro", "Cajeros automáticos"],
+    "tieneCajero": true,
+    "coordenadas": { "lat": 3.4566, "lng": -76.5332 }
+  }
+]

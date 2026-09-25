@@ -1,0 +1,44 @@
+[
+  {
+    "id": "faq-1",
+    "categoria": "Créditos",
+    "pregunta": "¿Qué requisitos necesito para solicitar un crédito de libre inversión?",
+    "respuesta": "Debes ser mayor de 18 años, contar con ingresos demostrables equivalentes al menos a 1.5 SMMLV, presentar fotocopia de tu documento de identidad ampliado al 150%, certificado laboral con vigencia no mayor a 30 días y los dos últimos desprendibles de pago de nómina."
+  },
+  {
+    "id": "faq-2",
+    "categoria": "Créditos",
+    "pregunta": "¿Cómo calcula el simulador el valor de mi cuota mensual?",
+    "respuesta": "El simulador aplica el sistema de amortización de cuota fija con base en el monto solicitado, el plazo en meses y la tasa de interés periódica mensual vencida (M.V.). El cálculo incluye amortización a capital e intereses corrientes aproximados."
+  },
+  {
+    "id": "faq-3",
+    "categoria": "CDT",
+    "pregunta": "¿Qué es un CDT y qué plazo mínimo puedo contratar?",
+    "respuesta": "Un Certificado de Depósito a Término (CDT) es un instrumento de inversión de renta fija donde depositas una suma de dinero durante un periodo acordado a cambio de una rentabilidad pactada. Nuestro plazo mínimo de inversión es de 30 días en modalidad tradicional y 90 días en CDT digital."
+  },
+  {
+    "id": "faq-4",
+    "categoria": "CDT",
+    "pregunta": "¿Los rendimientos de un CDT pagan retención en la fuente?",
+    "respuesta": "Sí. De conformidad con el Estatuto Tributario colombiano, los rendimientos financieros generados por depósitos a término están sujetos a una retención en la fuente del 4% sobre los intereses liquidados, lo cual se descuenta automáticamente al momento del pago."
+  },
+  {
+    "id": "faq-5",
+    "categoria": "Cuentas",
+    "pregunta": "¿Las cuentas de ahorro están aseguradas contra contingencias?",
+    "respuesta": "Sí, todos los depósitos en cuentas de ahorro y certificados de depósito de nuestra entidad se encuentran respaldados por el seguro de depósitos del Fondo de Garantías de Instituciones Financieras (FOGAFIN), garantizando la tranquilidad y seguridad de tu capital."
+  },
+  {
+    "id": "faq-6",
+    "categoria": "Plataforma",
+    "pregunta": "¿Los resultados arrojados por los simuladores son vinculantes o definitivos?",
+    "respuesta": "Los simuladores proporcionan estimaciones aproximadas con fines netamente informativos y orientativos según las condiciones del mercado al momento de la consulta. La aprobación final y las condiciones definitivas quedan sujetas al estudio de crédito y políticas internas de la entidad."
+  },
+  {
+    "id": "faq-7",
+    "categoria": "Plataforma",
+    "pregunta": "¿Quiénes pueden iniciar sesión en el portal 'Acceso al usuario'?",
+    "respuesta": "El acceso con usuario y clave está destinado a los asesores financieros y administradores autorizados de la entidad para registrar atenciones comerciales, gestionar solicitudes y dar seguimiento a los simulacros realizados."
+  }
+]

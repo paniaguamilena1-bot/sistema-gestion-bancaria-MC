@@ -1,0 +1,22 @@
+[
+  {
+    "id": "usr-001",
+    "nombre": "Michell Castaño Paniagua",
+    "email": "asesor@banco.com",
+    "password": "asesor123",
+    "rol": "asesor",
+    "cargo": "Asesora Financiera Senior",
+    "sucursal": "Sucursal Principal La Dorada",
+    "activo": true
+  },
+  {
+    "id": "usr-002",
+    "nombre": "Junior Celis",
+    "email": "admin@banco.com",
+    "password": "admin123",
+    "rol": "admin",
+    "cargo": "Administrador del Sistema",
+    "sucursal": "Dirección General",
+    "activo": true
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "msg-001",
+    "nombre": "Carlos Alberto Gómez",
+    "email": "carlos.gomez@ejemplo.com",
+    "telefono": "3104567890",
+    "ciudad": "La Dorada",
+    "asunto": "Consulta sobre crédito para compra de vivienda",
+    "mensaje": "Buenas tardes, quisiera recibir asesoría personalizada para un crédito de vivienda VIS con subsidio de tasa.",
+    "fecha": "2026-09-20T10:15:00.000Z",
+    "leido": true
+  }
+]

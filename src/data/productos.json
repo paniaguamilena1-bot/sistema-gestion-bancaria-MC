@@ -1,0 +1,180 @@
+[
+  {
+    "id": "prod-ahorro-tradicional",
+    "nombre": "Cuenta de Ahorro Tradicional",
+    "categoria": "ahorro",
+    "tipo": "Ahorro",
+    "descripcionCorta": "Maneja tu dinero con disponibilidad inmediata y rentabilidad garantizada sobre saldo diario.",
+    "descripcion": "La Cuenta de Ahorro Tradicional te permite administrar tus recursos financieros de manera segura, con acceso a retiros en cajeros automáticos, transferencias electrónicas y cobertura total por seguro de depósitos FOGAFIN.",
+    "tasaReferencia": "4.5% E.A.",
+    "montoMinimo": 0,
+    "plazoMinimo": "Inmediato",
+    "beneficios": [
+      "Sin cuota de manejo los primeros 6 meses",
+      "Retiros gratuitos en toda la red de cajeros de la entidad",
+      "Transferencias interbancarias inmediatas sin costo adicional",
+      "Exención del 4x1000 según normativa vigente"
+    ],
+    "requisitos": [
+      "Documento de identidad original (Cédula de Ciudadanía o de Extranjería)",
+      "Monto de apertura desde $0 COP",
+      "Diligenciar formulario de vinculación de cliente"
+    ]
+  },
+  {
+    "id": "prod-ahorro-programado",
+    "nombre": "Cuenta Ahorro Programado Futuro",
+    "categoria": "ahorro",
+    "tipo": "Ahorro",
+    "descripcionCorta": "Alcanza tus metas financieras mediante aportes periódicos con una tasa de interés preferencial.",
+    "descripcion": "Ideal para la compra de vivienda, educación o proyectos familiares. Programa un débito automático mensual desde tu cuenta principal y maximiza tus rendimientos mientras construyes tu patrimonio.",
+    "tasaReferencia": "7.2% E.A.",
+    "montoMinimo": 50000,
+    "plazoMinimo": "6 a 36 meses",
+    "beneficios": [
+      "Mayor rentabilidad que una cuenta de ahorros ordinaria",
+      "Débito automático sin costo en la fecha que elijas",
+      "Válido como soporte de ahorro para postulación de subsidio de vivienda",
+      "Liquidación y capitalización mensual de intereses"
+    ],
+    "requisitos": [
+      "Ser titular de una cuenta activa en la entidad",
+      "Establecer una cuota mensual mínima de ahorro de $50,000 COP",
+      "Definir el plazo de ahorro (mínimo 6 meses)"
+    ]
+  },
+  {
+    "id": "prod-cdt-tradicional",
+    "nombre": "CDT Tasa Fija Tradicional",
+    "categoria": "cdt",
+    "tipo": "Inversión",
+    "descripcionCorta": "Garantiza una rentabilidad segura y fija para tu capital con plazos desde 30 hasta 360 días.",
+    "descripcion": "Certificado de Depósito a Término que te asegura un rendimiento predecible y constante, blindando tu dinero contra la volatilidad del mercado. Al vencimiento puedes renovar tu capital o disponer de intereses.",
+    "tasaReferencia": "10.8% E.A.",
+    "montoMinimo": 500000,
+    "plazoMinimo": "30 a 360 días",
+    "beneficios": [
+      "Rentabilidad fija garantizada durante todo el periodo pactado",
+      "Modalidad de pago de intereses mensual, trimestral o al vencimiento",
+      "Título valor endosable y negociable en el mercado secundario",
+      "Protección por seguro de depósitos FOGAFIN"
+    ],
+    "requisitos": [
+      "Fotocopia del documento de identidad ampliado al 150%",
+      "Inversión mínima de $500,000 COP",
+      "Certificación de origen lícito de fondos para montos superiores a 10 SMMLV"
+    ]
+  },
+  {
+    "id": "prod-cdt-digital",
+    "nombre": "CDT Digital Preferencial",
+    "categoria": "cdt",
+    "tipo": "Inversión",
+    "descripcionCorta": "Abre tu CDT 100% en línea desde nuestro portal con tasas preferenciales exclusivas.",
+    "descripcion": "Invierte en pocos minutos sin papeleos ni necesidad de desplazarte a una sucursal física. Obtén una sobretasa especial en tu rendimiento y realiza seguimiento en tiempo real desde tus dispositivos.",
+    "tasaReferencia": "11.5% E.A.",
+    "montoMinimo": 200000,
+    "plazoMinimo": "90 a 540 días",
+    "beneficios": [
+      "Tasa de rentabilidad incrementada hasta +0.70% adicional sobre el CDT tradicional",
+      "Apertura ágil 100% digital con autenticación segura",
+      "Reinversión automática opcional con bonificación de tasa",
+      "Descarga inmediata del certificado digital en formato PDF"
+    ],
+    "requisitos": [
+      "Tener cuenta bancaria activa con saldo disponible en la entidad",
+      "Monto mínimo de inversión de $200,000 COP",
+      "Validación de identidad por biometría o código OTP al celular"
+    ]
+  },
+  {
+    "id": "prod-credito-libre-inversion",
+    "nombre": "Crédito de Libre Inversión",
+    "categoria": "credito",
+    "tipo": "Crédito",
+    "descripcionCorta": "Financiación de libre destinación para viajes, estudios, remodelación o consolidación de deudas.",
+    "descripcion": "Línea de crédito diseñada para brindar liquidez inmediata con cuotas fijas mensuales y plazos cómodos que se adaptan a tu capacidad de pago. Aprobación rápida con mínimo papeleo.",
+    "tasaReferencia": "1.35% M.V. (17.4% E.A.)",
+    "montoMinimo": 1000000,
+    "plazoMinimo": "12 a 60 meses",
+    "beneficios": [
+      "Libre destinación de los fondos otorgados",
+      "Cuota fija mensual durante toda la vigencia del crédito",
+      "Posibilidad de realizar abonos extraordinarios a capital sin penalidad",
+      "Seguro de vida deudores con cobertura amplia"
+    ],
+    "requisitos": [
+      "Edad entre 18 y 74 años",
+      "Ingresos mínimos demostrables de 1.5 SMMLV",
+      "Certificado laboral no mayor a 30 días y comprobantes de pago de nómina",
+      "Para independientes: extractos bancarios de los últimos 3 meses y declaración de renta"
+    ]
+  },
+  {
+    "id": "prod-credito-vivienda",
+    "nombre": "Crédito Hipotecario de Vivienda",
+    "categoria": "credito",
+    "tipo": "Crédito",
+    "descripcionCorta": "Haz realidad el sueño de tener casa propia con las tasas más competitivas del mercado.",
+    "descripcion": "Financiamos hasta el 70% del valor comercial de vivienda no VIS y hasta el 80% para vivienda de interés social (VIS), en pesos o UVR con plazos extendidos de hasta 20 años.",
+    "tasaReferencia": "0.95% M.V. (12.0% E.A.)",
+    "montoMinimo": 20000000,
+    "plazoMinimo": "60 a 240 meses",
+    "beneficios": [
+      "Tasas subsidiables con programas del Gobierno Nacional",
+      "Plazos de pago de hasta 20 años para cuotas más bajas",
+      "Estudio de títulos y avalúo con tarifas preferenciales corporativas",
+      "Acompañamiento personalizado de un asesor hipotecario especializado"
+    ],
+    "requisitos": [
+      "Ingresos familiares conjuntos mínimos de 2 SMMLV",
+      "Promesa de compraventa del inmueble a financiar",
+      "Certificado de tradición y libertad del predio vigente",
+      "Comprobantes de ingresos y estabilidad laboral mínima de 1 año"
+    ]
+  },
+  {
+    "id": "prod-credito-vehiculo",
+    "nombre": "Crédito para Vehículo",
+    "categoria": "credito",
+    "tipo": "Crédito",
+    "descripcionCorta": "Estrena vehículo nuevo o usado con financiación de hasta el 90% del valor comercial.",
+    "descripcion": "Obtén la mejor alternativa para adquirir tu automóvil particular o de servicio público. Tasa preferencial para vehículos híbridos y eléctricos contribuyendo a la sostenibilidad.",
+    "tasaReferencia": "1.15% M.V. (14.7% E.A.)",
+    "montoMinimo": 8000000,
+    "plazoMinimo": "12 a 72 meses",
+    "beneficios": [
+      "Financiación de hasta el 90% para vehículos nuevos",
+      "Descuento especial de 50 puntos básicos en tasa para autos eco-amigables",
+      "Alianzas comerciales con los principales concesionarios del país",
+      "Póliza de seguro todo riesgo financiada dentro del mismo crédito"
+    ],
+    "requisitos": [
+      "Cotización o factura proforma del vehículo en concesionario",
+      "Ingresos mínimos de 2 SMMLV",
+      "Certificación laboral y extractos bancarios recientes"
+    ]
+  },
+  {
+    "id": "prod-microcredito",
+    "nombre": "Microcrédito Productivo",
+    "categoria": "credito",
+    "tipo": "Crédito",
+    "descripcionCorta": "Impulsa el crecimiento de tu microempresa o negocio con capital de trabajo e inversión en activos.",
+    "descripcion": "Línea especializada para emprendedores y comerciantes independientes. Asesoría en tu propio lugar de trabajo para evaluar la capacidad real de tu unidad productiva.",
+    "tasaReferencia": "2.1% M.V. (28.3% E.A.)",
+    "montoMinimo": 1000000,
+    "plazoMinimo": "6 a 36 meses",
+    "beneficios": [
+      "Visita de un asesor de crédito directamente en tu negocio",
+      "Aprobación rápida sin requerir estados financieros complejos",
+      "Flexibilidad en garantías personales o prendarias",
+      "Oportunidad de crear historial crediticio bancario formal"
+    ],
+    "requisitos": [
+      "Negocio en funcionamiento con antigüedad mínima de 12 meses",
+      "Fotocopia de cédula y RUT o matrícula mercantil si aplica",
+      "Soportes de compra y venta del negocio (facturas, cuadernos de ventas)"
+    ]
+  }
+]

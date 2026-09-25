@@ -1,0 +1,31 @@
+[
+  {
+    "id": "sim-001",
+    "tipo": "credito",
+    "tipoCredito": "Crédito de Libre Inversión",
+    "clienteNombre": "Mariana López",
+    "valorSolicitado": 15000000,
+    "plazoMeses": 36,
+    "tasaInteresMV": 1.35,
+    "cuotaMensual": 528340,
+    "totalIntereses": 4020240,
+    "totalPagar": 19020240,
+    "fecha": "2026-09-22T14:30:00.000Z",
+    "asesor": "Michell Castaño Paniagua"
+  },
+  {
+    "id": "sim-002",
+    "tipo": "cdt",
+    "tipoCDT": "CDT Tasa Fija Tradicional",
+    "clienteNombre": "Roberto Gómez",
+    "valorInversion": 10000000,
+    "tiempoDias": 180,
+    "tasaRentabilidadEA": 10.8,
+    "rendimientoBruto": 524100,
+    "retencionFuente": 20964,
+    "rendimientoNeto": 503136,
+    "totalLiquidar": 10503136,
+    "fecha": "2026-09-23T11:20:00.000Z",
+    "asesor": "Michell Castaño Paniagua"
+  }
+]

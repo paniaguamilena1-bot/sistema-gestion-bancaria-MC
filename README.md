@@ -1,118 +1,63 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# Sistema de Gestión Bancaria y Financiera (BanCentral MC)
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+> **Proyecto Académico / Institucional:** EV9 – Planeación y Diseño de un Sistema de Información para una Entidad Financiera  
+> **Centro:** Centro Pecuario y Agroempresarial – SENA (La Dorada, Caldas)  
+> **Programa:** Tecnólogo en Gestión Bancaria y de Entidades Financieras  
+> **Autor(a):** Michell Mariana Castaño Paniagua  
+> **ID Ficha:** 3230956  
+> **Instructor:** Junior Celis  
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+---
 
-## Description
+## 🏛️ Descripción General del Sistema
+Este sistema de información fue concebido para que clientes y usuarios consulten el portafolio de productos y servicios ofrecidos por la entidad, realicen simulaciones financieras en tiempo real (créditos y depósitos a término CDT), ubiquen oficinas/cajeros y cuenten con canales de contacto directo.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Asimismo, provee a los **asesores financieros** y **administradores** una herramienta de cotización ágil que reduce tiempos de espera y optimiza la atención al usuario.
 
-## Project setup
+---
 
-```bash
-$ npm install
-```
+## 🛠️ Stack Tecnológico
+* **Framework:** [Next.js](https://nextjs.org/) (App Router, React Server Components y Server Actions)
+* **Lenguaje:** TypeScript con tipado estricto
+* **Estilos:** Tailwind CSS con paleta corporativa bancaria (azul financiero, dorado y esmeralda)
+* **Iconografía:** Lucide React
+* **Persistencia de Datos:** Almacenamiento local en archivos planos `.json` mediante el sistema de archivos nativo de Node.js (`fs/promises`) en `src/data/` (sin requerir motores externos de base de datos)
 
-## Compile and run the project
+---
 
-```bash
-# development
-$ npm run start
+## 🧭 Estructura y Módulos del Sistema
+1. **Inicio (`/`):** Presentación institucional, misión, accesos rápidos a simuladores y catálogo destacado.
+2. **Productos Financieros (`/productos`):** Catálogo de cuentas de ahorro, CDT y líneas de crédito con fichas técnicas de beneficios y requisitos.
+3. **Simulador de Crédito (`/simulador-credito`):** Cotizador con sistema de amortización francés (cuota fija mensual, intereses, tabla de amortización detallada, opción de guardado e impresión de comprobante).
+4. **Simulador de CDT (`/simulador-cdt`):** Calculadora de rendimientos para inversiones a término fijo con deducción de retención en la fuente (4%) y liquidación neta al vencimiento.
+5. **Ubicación de Oficinas y Cajeros (`/oficinas`):** Directorio de sucursales físicas y cajeros automáticos con filtros por ciudad y tipo.
+6. **Preguntas Frecuentes (`/preguntas-frecuentes`):** Acordeón temático organizado por créditos, CDT, cuentas y plataforma.
+7. **Contacto y Canales (`/contacto`):** Datos institucionales y formulario interactivo con generación automática de número de radicado.
+8. **Acceso al Usuario (`/login`):** Portal de autenticación para Asesores Financieros y Administradores.
+9. **Panel Privado (`/dashboard`):** Área de gestión con historial de cotizaciones guardadas, bandeja de solicitudes web y fichas de productos.
 
-# watch mode
-$ npm run start:dev
+---
 
-# production mode
-$ npm run start:prod
-```
+## 🔐 Credenciales de Acceso para Demostración
 
-## Run tests
+| Rol | Correo Electrónico | Contraseña | Cargo / Sucursal |
+| :--- | :--- | :--- | :--- |
+| **Asesor Financiero** | `asesor@banco.com` | `asesor123` | Asesora Senior • Sucursal Principal La Dorada |
+| **Administrador** | `admin@banco.com` | `admin123` | Administrador General • Dirección General |
 
-```bash
-# unit tests
-$ npm run test
+---
 
-# e2e tests
-$ npm run test:e2e
+## 🚀 Instrucciones para Ejecución Local
 
-# test coverage
-$ npm run test:cov
-```
+1. **Instalar dependencias (si no se ha ejecutado):**
+   ```bash
+   npm install
+   ```
 
-## Deployment
+2. **Iniciar el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
-
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
-
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
-
-## Observability
-
-In production applications, observability is essential for understanding how your system behaves, detecting issues early, and maintaining reliable performance.
-
-[NestJS Observe](https://observe.nestjs.com) automatically instruments your NestJS application, giving you deep visibility into your system with minimal setup:
-
-- **Distributed tracing:** Follow requests across services and understand how they flow through your system.
-- **Waterfall analysis:** Visualize request execution and identify slow operations, bottlenecks, and unexpected delays.
-- **Performance analysis:** Analyze application performance in real time and quickly pinpoint areas that need optimization.
-- **Metrics:** Track key application and infrastructure metrics to understand system health and performance trends.
-- **Logging:** Centralize and correlate logs with traces and other telemetry to make debugging easier.
-- **Error tracking:** Detect errors quickly and investigate their root causes with the surrounding context.
-- **SLA monitoring:** Track service-level objectives and identify when your application is approaching or exceeding defined thresholds.
-- **Alarms and alerts:** Set up alerts for critical errors, performance degradation, SLA violations, and other anomalies so your team can react quickly.
-
-This project is already instrumented. Create a free account at [observe.nestjs.com](https://observe.nestjs.com), add an application, and paste the generated app key and secret into the `ObserveModule.forRoot()` call in `src/app.module.ts`.
-
-The free plan needs no payment details and covers 300,000 events a month. You can also browse the [live demo](https://www.observe-demo.nestjs.com/dashboard) first - the whole dashboard over a busy service's data, with nothing to install.
-
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Auto-instrument your application with [NestJS Observe](https://observe.nestjs.com). Distributed tracing, metrics, and logging made easy. Error tracking and performance monitoring for your NestJS applications.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+3. **Abrir en el navegador:**
+   Visita [http://localhost:3000](http://localhost:3000)
